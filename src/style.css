@@ -1,0 +1,15 @@
+*{
+    animation: aa 1s ease;
+}
+@keyframes aa {
+    0%{
+        opacity: 0;
+        position: relative;
+        left: 5rem;
+    }
+    100%{
+        opacity: 1;
+        position: relative;
+        left: 0;
+    }
+}

@@ -1,0 +1,85 @@
+::-webkit-scrollbar{
+    display: none !important;
+}
+.bodyCourses{
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: center;
+}
+.CoursesSection{
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+.bodyCourse .CoursesSection h1{
+    position: relative;
+    top: 7rem;
+}
+
+.Courses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1px;
+    width: 99vw;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+}
+.Courses::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.Course{
+    max-width: 350px;
+    min-height: 400px;
+    transition: all 0.5s;
+    margin: 10px 12px;
+    padding: 5px;
+}
+.Course:hover{
+    box-shadow: 4px 7px 15px black;
+    transition: all 0.5s;
+    border-radius: 7px;
+}
+.Courses .Course img{
+    max-width: 310px;
+    min-height: 150px;
+}
+.Courses .Course div{
+    text-align: left;   
+    margin-top: 2rem;
+}
+.Courses .Course div div{
+    display: flex;
+    align-items: stretch;
+}
+.Courses .Course div div strong{
+    color: #ffc107;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    margin-top: -2px;
+}
+.Courses .Course h5{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.Courses .Course button{
+    margin-top: 2rem;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ffc107;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+.Courses .Course button:hover{
+    background: white;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+    transition: all 0.5s;
+}

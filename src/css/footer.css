@@ -1,0 +1,82 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px;
+    flex-wrap: wrap;
+    height: 600px;
+    background: #e6e6e6;
+}
+.footer p{
+    width: 250px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.about{
+    margin-left: 2rem;
+}
+.footer h3{
+    font-weight: 700;
+    border-bottom: 4px solid #ffc107;
+    padding-bottom: 0.4rem;
+    width: 235px;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+.navigator{
+    margin-top: 1rem;
+}
+.navigator .FooterNav .Link{
+    display: block;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: black;
+    font-weight: 600;
+}
+.navigator .FooterNav .Link:hover{
+    text-shadow: 0 0 55px #ffc107;
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+.boglanish div{
+    margin-top: 1rem;
+}
+.boglanish div a{
+    transition: all 0.5s;
+    text-decoration: none;
+    color: #494343;
+}
+.boglanish div a:hover{
+    margin-left: 5px;
+    text-shadow: 0 0 15px #494343;
+}
+.form form input, button{
+    display: block;
+    margin-top: 1rem;
+    width: 250px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    border: 2px solid #ffc107;
+    outline: none;
+}
+.form form button{
+    border: 1px solid #ffc107;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px 1px;
+    transition: all 0.5s;
+    color: #ffc107;
+    font-weight: 700;
+    border-radius: 7px;
+}
+.form form button:hover{
+    background: #ffc107;
+    color: white;
+    transition: all 0.5s;
+}
+.form{
+    margin-top: 3.5rem;
+    margin-right: 2rem;
+}
